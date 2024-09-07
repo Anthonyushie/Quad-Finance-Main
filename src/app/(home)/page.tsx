@@ -1,5 +1,6 @@
 /** @format */
 "use client";
+import Navbar from "@/components/Navbar";
 import { perks } from "@/data";
 import { Accordion, AccordionItem, Button } from "@nextui-org/react";
 import { MoveRight } from "lucide-react";
@@ -11,6 +12,7 @@ export default function Home() {
 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 	return (
 		<>
+			<Navbar />
 			<div className="mx-auto w-full max-w-screen-xl my-10 md:px-20">
 				<div className="flex items-center w-full justify-between">
 					<div className="flex flex-col gap-5 w-[50%]">

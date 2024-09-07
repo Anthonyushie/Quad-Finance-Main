@@ -1,6 +1,5 @@
 /** @format */
 
-import { Button } from "@nextui-org/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +7,7 @@ const Navbar = () => {
 	return (
 		<div className="navitem__wrp text-white text-lg sticky z-50 top-0 inset-x-0 px-20 2xl:px-10 py-5 2xl:mx-auto 2xl:max-w-screen-xl">
 			<header className="relative flex items-center justify-between">
-				<Link href={""}>
+				<Link href={"/"}>
 					<div className="navlogo flex items-center">
 						<Image
 							src="/qudfinance-logo.svg"

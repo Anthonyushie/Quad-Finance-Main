@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const Footer = () => {
 	return (
-		<div className="w-full bg-[#151021] py-5">
+		<div className="w-full bg-[#151021] py-4">
 			<div className="flex items-center justify-center gap-2 ">
 				<Image
-					width={50}
-					height={50}
+					width={35}
+					height={35}
 					src={"/qudfinance-logo.svg"}
 					alt="quadfinance logo"
 				/>
-				<h1 className="text-2xl font-bold">
+				<h1 className="text-[20px] font-bold">
 					{" "}
 					<span className="text-[#FBCA0A]">Quad</span> Finance
 				</h1>

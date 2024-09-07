@@ -1,10 +1,15 @@
-
+/** @format */
 
 type perksProps = {
-  image: string
-  name: string,
-  description: string
-}[]
+	image: string;
+	name: string;
+	description: string;
+}[];
+
+type countryCode = {
+	label: string;
+	value: string;
+}[];
 
 export const perks: perksProps = [
 	{
@@ -26,4 +31,10 @@ export const perks: perksProps = [
 		description:
 			"Enjoy a seamless and synchronized experience across all your devices with Quad Finance, whether using USSD, web, or mobile apps.",
 	},
+];
+
+export const countryCode: countryCode = [
+	{ label: "Nigeria (+234)", value: "Nigeria (+234)" },
+	{ label: "Kenya (+221)", value: "Kenya (+221)" },
+	{ label: "Ghana (+252)", value: "Ghana (+252)" },
 ];
