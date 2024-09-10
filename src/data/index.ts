@@ -11,6 +11,11 @@ type countryCode = {
 	value: string;
 }[];
 
+type Currencies = {
+	label: string;
+	value: string;
+}[];
+
 export const perks: perksProps = [
 	{
 		image: "/transaction.svg",
@@ -37,4 +42,29 @@ export const countryCode: countryCode = [
 	{ label: "Nigeria (+234)", value: "Nigeria (+234)" },
 	{ label: "Kenya (+221)", value: "Kenya (+221)" },
 	{ label: "Ghana (+252)", value: "Ghana (+252)" },
+];
+
+export const currencies: Currencies = [
+	{
+		label: "Nigeria Naira (NGN)",
+		value: "Nigeria Naira (NGN)",
+	},
+
+	{
+		label: "Bitcoin (BTC)",
+		value: "Bitcoin (BTC)",
+	},
+
+	{
+		label: "Ghanaian Cedis (GHS)",
+		value: "Ghanaian Cedis (GHS)",
+	},
+	{
+		label: "Kenyan Shillings (KES)",
+		value: "Kenyan Shillings (KES)",
+	},
+	{
+		label: "USDC",
+		value: "USDC",
+	},
 ];

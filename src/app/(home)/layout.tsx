@@ -14,10 +14,10 @@ type HomeProps = {
 const HomeLayout = ({ children }: HomeProps) => {
 	return (
 		<>
-			<div className="">
+			<main className="body-wrap">
 				<div className="flex-grow flex-1">{children}</div>
 				<Footer />
-			</div>
+			</main>
 		</>
 	);
 };

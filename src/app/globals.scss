@@ -4,8 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .body-wrap {
 	background-color: #060113;
 	color: white;
@@ -23,7 +21,16 @@
 		background-size: cover;
 		background-position: center;
 	}
+}
+.mantine-NativeSelect-wrapper {
+	background-color: #010312 !important;
+	color: white;
+}
 
+.mantine-NativeSelect-input {
+	background-color: #010312 !important;
+}
 
-
+.mantine-NativeSelect-root {
+	background-color: #010312 !important;
 }

@@ -30,12 +30,12 @@ const Navbar = () => {
 				</div>
 
 				<div className="btns flex items-center gap-10 px-5 ">
-					<Link href={""} className="text-[#fbca0a]">
+					<Link href={"/sign-in"} className="text-[#fbca0a]">
 						<p className="text-[15px]">Login</p>
 					</Link>
 
 					<Link
-						href={""}
+						href={"/sign-up"}
 						className=" bg-[#FBCA0A] w-full px-12 rounded-md py-2">
 						<p className=" text-gray-800 text-[20]">Signup</p>
 					</Link>
