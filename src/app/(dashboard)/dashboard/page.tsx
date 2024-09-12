@@ -90,11 +90,17 @@ const page = () => {
 					</div>
 				</div>
 
-				{/* ==> ==> RECENTS TRANSACTIONS ==> ==> */}
-				<div></div>
+				<div>
+					{/* ==> ==> RECENTS TRANSACTIONS ==> ==> */}
+					<div className="px-7 py-6 bg-[#0C0C16] my-8">
+						<div>
+							<h3>Recent Transactions</h3>
+						</div>
+					</div>
 
-				{/* ==> ==> FAVOURITE MOVERS */}
-				<div></div>
+					{/* ==> ==> FAVOURITE MOVERS */}
+					<div></div>
+				</div>
 			</div>
 		</div>
 	);

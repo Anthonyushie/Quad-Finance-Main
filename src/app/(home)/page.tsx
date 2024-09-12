@@ -29,7 +29,7 @@ export default function Home() {
 							<Link
 								href={""}
 								className="bg-[#fbca0a] flex items-center justify-between h-full px-5 w-fit">
-								<Button className="bg-[#fbca0a] rounded-none flex items-center justify-between">
+								<Button className="bg-[#fbca0a] text-[#181818] rounded-none flex items-center justify-between">
 									Sign Up Now{" "}
 									<span>
 										<MoveRight className="w-6" />
@@ -87,7 +87,7 @@ export default function Home() {
 						<Link
 							href={""}
 							className="bg-[#fbca0a] flex items-center justify-between h-full px-5 w-fit">
-							<Button className="bg-[#fbca0a] rounded-none flex items-center justify-between">
+							<Button className="bg-[#fbca0a] text-[#181818] rounded-none flex items-center justify-between">
 								Discover More{" "}
 								<span>
 									<MoveRight className="w-6" />
